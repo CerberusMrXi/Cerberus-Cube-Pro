@@ -1,0 +1,27 @@
+# Scanner Reliability Remediation
+
+- [x] Reproduce the unresponsive camera and capture-control behavior across supported browser states.
+- [x] Audit the existing frame acquisition, stability gating, and colour classification pipeline.
+- [x] Replace fixed-grid color sampling with perspective-aware sticker-region measurement and robust colour-space classification.
+- [x] Add camera-permission, readiness, lighting, alignment, and stability feedback with recoverable retry paths.
+- [x] Validate each accepted face with multi-frame consensus and reject implausible cube states before solving.
+- [x] Test the sample scan, correction, and solve workflow on desktop and phone-sized layouts; physical-camera testing remains device-dependent.
+- [x] Document limitations and local-run requirements for reliable physical-device camera scanning.
+- [x] Audit every visual asset reference and identify which hosted paths fail outside the managed preview.
+- [x] Replace private project-storage visuals with standalone public CDN references for downloaded-project use.
+- [x] Verify every public visual URL and remove the hosted-only `/manus-storage` frontend paths.
+- [x] Build and verify the repaired standalone frontend, then document the corrected Windows run path.
+- [x] Copy every original Cerberus visual into a dedicated local public asset folder in the project.
+- [x] Replace all remote CDN image references with relative offline-local paths.
+- [x] Build and inspect the download so images are present and usable without an internet connection.
+- [x] Write a professional README with author attribution to Sudeepa Waniagarathna.
+- [x] Document installation, scanner operation, colour-quality checks, troubleshooting, and offline visual-asset packaging.
+- [x] Clearly state the current platform checkpoint limitation for the bundled media files.
+- [x] Upgrade the static project to the full-stack template with managed file storage.
+- [x] Move the five bundled Cerberus image files into managed storage.
+- [x] Replace local project image paths with managed storage URLs.
+- [x] Verify the scanner interface and complete a checkpoint without committed large media files.
+- [x] Replace Unix-only `NODE_ENV=...` package scripts with cross-platform environment handling.
+- [x] Validate the revised development and production commands on the managed project environment.
+- [x] Update the Windows setup documentation with the corrected one-command startup path.
+- [x] Verify `pnpm start` boots the production server through `cross-env`; the temporary validation server started on port 3001 and was then intentionally stopped.
