@@ -54,11 +54,23 @@ The application is built around one core principle:
 
 ---
 
-## Overview
- <br> <br>
-<img width="1893" height="865" alt="Capture" src="https://github.com/user-attachments/assets/b0ba6418-0dac-42c3-ba6e-983b71f0aaa9" /> <br> <br> <br>
-<img width="1885" height="866" alt="2" src="https://github.com/user-attachments/assets/9b037b9e-661c-47e7-9c6f-40debd7e900d" /> <br> <br>
+## 📸 Screenshots
 
+### Main Interface
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b0ba6418-0dac-42c3-ba6e-983b71f0aaa9" alt="Main Interface" width="95%">
+</div>
+
+### Scanner Interface
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9b037b9e-661c-47e7-9c6f-40debd7e900d" alt="Scanner Interface" width="95%">
+</div>
+
+---
+
+## Overview
 
 Cerberus Cube Pro combines a guided camera workflow with local cube-state validation and solving. Instead of trusting one camera frame, it collects repeatable evidence while the user keeps the cube aligned. The six centre stickers establish the colour identity and orientation of the cube; other stickers are then classified relative to those calibrated colours.
 
