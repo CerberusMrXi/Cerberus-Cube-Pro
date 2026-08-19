@@ -32,8 +32,6 @@ The application is built around one core principle:
 
 - [Project Structure](#project-structure)
 
-- [Asset Delivery](#asset-delivery)
-
 - [Available Commands](#available-commands)
 
 - [Validation Rules](#validation-rules)
@@ -287,19 +285,6 @@ cerberus-cube-pro/
 
 The exact file layout may evolve as the application grows. New scanner logic should remain separate from page-level orchestration, and storage-specific behavior should remain isolated in the server storage layer.
 
-## Asset Delivery
-
-The current project configuration uses **managed File Storage** for the five Cerberus visual assets. This keeps large media outside the source tree while preserving the product imagery in development and deployed environments.
-
-| Asset | Managed path |
-| --- | --- |
-| **Brand mark** | `/manus-storage/cerberus-cube-mark_49120b58.png` |
-| **Hero image** | `/manus-storage/cerberus-cube-hero_7784f8eb.jpg` |
-| **Alignment guide** | `/manus-storage/cerberus-cube-frame-guide_38a22b61.jpg` |
-| **Rotation guide** | `/manus-storage/cerberus-cube-rotation-guide_bdd33bfe.jpg` |
-| **Validation guide** | `/manus-storage/cerberus-cube-validation-guide_e789588a.jpg` |
-
-Use the project’s File Storage panel when replacing these assets. Keep the resulting `/manus-storage/...` path in the frontend rather than copying large images into `client/public` or `client/src/assets`.
 
 ### Offline asset variant
 
