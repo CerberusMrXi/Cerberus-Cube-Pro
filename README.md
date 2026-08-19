@@ -443,10 +443,6 @@ The interface is designed to support targeted human correction, but users remain
 
 **Sudeepa Waniagarathna**
 
-## License
-
-No license is specified in the supplied project material. Add a repository license before distributing the project publicly. Until then, treat the source as **all rights reserved** unless the project owner states otherwise.
-
 ## References
 
 [1]: https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia "MDN Web Docs: MediaDevices.getUserMedia( )"
@@ -459,4 +455,3 @@ No license is specified in the supplied project material. Add a repository licen
 
 © Sudeepa Waniagarathna. Documentation prepared for the Cerberus Cube Pro project.
 
-> **Note:** This README reconciles the supplied project variants by documenting managed File Storage as the current asset strategy while retaining the offline `client/public/images/` layout for downloaded legacy copies.
